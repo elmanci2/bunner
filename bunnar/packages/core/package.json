@@ -1,0 +1,10 @@
+{
+    "name": "bunnar-core",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "chokidar": "^4.0.3",
+        "bunnar-sufry": "file:../sufry"
+    }
+}

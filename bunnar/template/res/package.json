@@ -1,0 +1,17 @@
+{
+  "name": "bunar",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/main.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bunnar-core": "file:bunnar/packages/core"
+  }
+}
