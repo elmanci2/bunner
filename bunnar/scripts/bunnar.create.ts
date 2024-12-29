@@ -1,3 +1,4 @@
+#!/usr/bin/env tsx
 
 import { TEMPLATE_DIR, ROOT_DIR, BUNNAR_CONFIG } from "../utils/path";
 import { copyTemplate, pathExist } from "../utils/directory";
